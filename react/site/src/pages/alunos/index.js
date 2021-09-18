@@ -7,7 +7,10 @@ import { confirmAlert } from 'react-confirm-alert';
 import 'react-confirm-alert/src/react-confirm-alert.css';
 
 import { ToastContainer, toast } from 'react-toastify';
-  import 'react-toastify/dist/ReactToastify.css';
+import 'react-toastify/dist/ReactToastify.css';
+
+import React, { useRef } from 'react'
+import LoadingBar from 'react-top-loading-bar' 
 
 import { useState, useEffect } from 'react';
 
