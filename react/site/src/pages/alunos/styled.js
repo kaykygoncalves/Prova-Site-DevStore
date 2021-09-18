@@ -362,6 +362,11 @@ const Container = styled.div`
         display: flex;
         flex-direction: row;
     }
+
+    .table-img img {
+        width: 38px;
+        height: 38px;
+    }
     
 `
 
